@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'raleway';
+  src: url('../font/Raleway-Regular.ttf');
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('../font/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'ubuntu';
+  src: url('../font/Ubuntu-Medium.ttf');
+}
+@font-face {
+  font-family: 'lobster';
+  src: url('../font/Lobster-Regular.ttf');
+}
+.light-grey-background {
+  background-color: #F5F8FA;
+}
+body {
+  background-image: url('../image/background4.jpg');
+  background-size: cover;
+  font-family: ubuntu;
+}
+#appRoot {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.app-wrapper {
+  height: 100%;
+  background-color: #F5F8FA;
+}
+.negative-margin {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+#footer-wrapper {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  color: #8D9194;
+  font-family: lobster;
+}
+
+.header {
+  background-color: white;
+}
+#word-template {
+  padding-left: 10px;
+}
+#word-riesling {
+  font-weight: bold;
+  display: inline-block;
+}
+#account-image {
+  display: inline-block;
+  margin-left: 10px;
+}
+#word-hello {
+  font-size: 1.1rem;
+}
+
+#text-chooseone-wrapper {
+  margin-top: 200px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #DB6E8B;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#text-chooseone-wrapper::after {
+  content: '';
+  display: block;
+  border: 1px solid #BA85EC;
+  margin-top: 10px;
+}
+#button-choose-wrapper {
+  margin-top: 50px;
+}
+.create-button {
+  height: 200px;
+  width: 100%;
+  font-size: 1.5rem!important;
+}
