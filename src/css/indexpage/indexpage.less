@@ -1,5 +1,28 @@
 .index-page-wrapper {
-  //height: 100%;
+  height: 100%;
+  padding-top: 50px!important;
+  margin: 0!important;
+  background-color: #21252b;
+  .left-tool-bar {
+    height: 100%;
+    width: 70px!important;
+    padding: 0;
+    background-color: rgb(242, 242, 234);
+    color: black;
+    .tool-row {
+      border-left: 2px solid red;
+      border-bottom: 1px solid lightgrey;
+      border-right: 1px solid lightgrey;
+      border-top: 1px solid lightgrey;
+      cursor: pointer;
+    }
+    .tool-row:hover {
+      background-color: rgba(235, 107, 107, 0.41);
+    }
+    .tool-row.selected {
+      background-color: rgba(235, 107, 107, 0.41);
+    }
+  }
 }
 
 #text-chooseone-wrapper {

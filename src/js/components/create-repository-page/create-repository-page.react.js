@@ -3,7 +3,7 @@
  */
 var React = require('react');
 
-var CreateRepositoryPage = React.createClass({
+const CreateRepositoryPage = React.createClass({
     render: function () {
         return (
             <div>
@@ -13,4 +13,4 @@ var CreateRepositoryPage = React.createClass({
     }
 });
 
-module.exports = CreateRepositoryPage;
+export default CreateRepositoryPage;

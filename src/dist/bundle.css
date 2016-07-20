@@ -1,3 +1,22 @@
+.diagram-section-wrapper {
+  color: white;
+  padding: 0 !important;
+}
+.diagram-section-wrapper .file-bar-wrapper {
+  margin: 0;
+}
+.diagram-section-wrapper .file-bar-wrapper .file-wrapper {
+  padding: 5px;
+  background-color: #a19f9f;
+  text-align: center;
+  border: 1px solid #cec0c0;
+  border-radius: 10px;
+  margin: 1px;
+}
+.diagram-wrapper {
+  height: 80%;
+}
+
 @font-face {
   font-family: 'raleway';
   src: url('../font/Raleway-Regular.ttf');
@@ -17,13 +36,15 @@
 .light-grey-background {
   background-color: #F5F8FA;
 }
+.warm-background {
+  background-color: #f7f6f2;
+}
 body {
   background-image: url('../image/background4.jpg');
   background-size: cover;
   font-family: ubuntu;
 }
 #appRoot {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   height: 100%;
@@ -33,11 +54,20 @@ body {
 }
 .app-wrapper {
   height: 100%;
-  background-color: #F5F8FA;
+  background-color: #f7f6f2;
 }
 .negative-margin {
   margin-left: -1rem;
   margin-right: -1rem;
+}
+.text-right-aligned {
+  text-align: right;
+}
+.full-width {
+  width: 100%;
+}
+.no-padding {
+  padding: 0!important;
 }
 
 #footer-wrapper {
@@ -48,24 +78,65 @@ body {
   font-family: lobster;
 }
 
-.header {
-  background-color: white;
+.hacksaw-header {
+  background-color: #373737;
+  padding: 5px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
 }
 #word-template {
   padding-left: 10px;
 }
-#word-riesling {
+#word-title-wrapper {
+  padding-top: 20px;
+}
+#word-title {
+  font-size: 1.5rem;
   font-weight: bold;
   display: inline-block;
 }
 #account-image {
   display: inline-block;
   margin-left: 10px;
+  margin-right: 1rem;
+  padding-top: 5px;
 }
 #word-hello {
   font-size: 1.1rem;
 }
 
+.tool-image {
+  width: 35px;
+}
+
+.index-page-wrapper {
+  height: 100%;
+  padding-top: 50px!important;
+  margin: 0!important;
+  background-color: #21252b;
+}
+.index-page-wrapper .left-tool-bar {
+  height: 100%;
+  width: 70px!important;
+  padding: 0;
+  background-color: #f2f2ea;
+  color: black;
+}
+.index-page-wrapper .left-tool-bar .tool-row {
+  border-left: 2px solid red;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  cursor: pointer;
+}
+.index-page-wrapper .left-tool-bar .tool-row:hover {
+  background-color: rgba(235, 107, 107, 0.41);
+}
+.index-page-wrapper .left-tool-bar .tool-row.selected {
+  background-color: rgba(235, 107, 107, 0.41);
+}
 #text-chooseone-wrapper {
   margin-top: 200px;
   font-weight: bold;
@@ -87,4 +158,19 @@ body {
   height: 200px;
   width: 100%;
   font-size: 1.5rem!important;
+}
+
+.navigator {
+  border-right: 1px solid #5f6664;
+  background-color: #21252b;
+}
+#navigator-collapse-icon-wrapper {
+  text-align: center;
+  margin-top: 5px;
+}
+.treebeard-wrapper {
+  padding: 1rem;
+}
+.treebeard-wrapper ul {
+  font-size: 1.2rem!important;
 }

@@ -1,11 +1,11 @@
 /**
  * Created by ssge on 2016/3/24.
  */
-var React = require('react');
-var Header = require('./header/header.react');
-var Footer = require('./footer/footer.react');
+import React from 'react';
+import Header from './header/header.react';
+import Footer from './footer/footer.react';
 
-var RieslingTemplateAPP = React.createClass({
+var RieslingHacksawAPP = React.createClass({
     render: function () {
         return (
             <div className="app-wrapper">
@@ -17,4 +17,4 @@ var RieslingTemplateAPP = React.createClass({
     }
 });
 
-module.exports = RieslingTemplateAPP;
+export default RieslingHacksawAPP;
