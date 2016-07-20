@@ -50,7 +50,7 @@ gulp.task('server', function () {
 gulp.task('open', function () {
     gulp.src('src/index.html')
         .pipe(open({
-            uri: 'http://localhost:8000',
+            uri: 'http://localhost:8000/hacksaw',
             app: 'chrome'
         }))
 });
